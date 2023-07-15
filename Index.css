@@ -1,0 +1,86 @@
+
+body,
+html {
+  width: 100%;
+  /*height: 100%; */
+  height: 100vh;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+ /* background-image: url("file:///C:/Users/TOUCHMATE/Documents/Code%20Plateau/Sublime_Text/Start%20Up%20Landing%20Page/header.jpg.jpg");*/
+  background-image: url("file:///C:/Users/TOUCHMATE/Documents/Code%20Plateau/Sublime_Text/Start%20Up%20Landing%20Page/mailchimp-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+.faded {
+ /* color: rgba(255, 255, 255, 0.8);*/
+  color: #F05F44; 
+  text-transform: uppercase;
+  background-position: center;
+  text-align: center;
+  margin-top: 280px;
+}
+
+header.startup {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+header.startup hr {
+  margin-top: 45px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 1rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+  transition: all 1s;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#col-lg-12 {
+  background-position: center;
+  text-align: center;
+}
+
+input.required {
+  background-position: center;
+  text-align: center;
+  padding: 1rem 1rem;
+}
